@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ConfigGroup brief="业务服务配置文件" name="PIERSERVICE-CONFIG">
+    <ConfigItem brief="服务名称" name="NAME">
+		<value>BsServer</value>
+		<description>业务功能服务</description>
+		<defvalue />
+		<editable>1</editable>
+		<dispstyle>TextBox</dispstyle>
+		<datatype>
+			<typename>String</typename>
+			<length>128</length>
+			<minvalue>0</minvalue>
+			<maxvalue>0</maxvalue>
+		</datatype>
+		<selectdata />
+	</ConfigItem>
+	
+	<ConfigItem brief="数据库类型" name="DBTYPE">
+		<value>oracle</value>
+		<description>oracle</description>
+		<defvalue />
+		<editable>1</editable>
+		<dispstyle>TextBox</dispstyle>
+		<datatype>
+			<typename>String</typename>
+			<length>128</length>
+			<minvalue>0</minvalue>
+			<maxvalue>0</maxvalue>
+		</datatype>
+		<selectdata />
+	</ConfigItem>
+	
+	<ConfigItem brief="数据库连接URL" name="DBURL">
+		<value>127.0.0.1:1521:orcl</value>
+		<description>IP:PORT:DBNAME</description>
+		<defvalue />
+		<editable>1</editable>
+		<dispstyle>TextBox</dispstyle>
+		<datatype>
+			<typename>String</typename>
+			<length>128</length>
+			<minvalue>0</minvalue>
+			<maxvalue>0</maxvalue>
+		</datatype>
+		<selectdata />
+	</ConfigItem>
+	
+	<ConfigItem brief="用户名" name="DBNAME">
+		<value>ecity</value>
+		<description></description>
+		<defvalue>ecity</defvalue>
+		<editable>1</editable>
+		<dispstyle>TextBox</dispstyle>
+		<datatype>
+			<typename>String</typename>
+			<length>10</length>
+			<minvalue>3</minvalue>
+			<maxvalue>10</maxvalue>
+		</datatype>
+		<selectdata />
+	</ConfigItem>
+	
+	<ConfigItem brief="密码" name="DBPSW">
+		<value>ecity</value>
+		<description></description>
+		<defvalue>ecity</defvalue>
+		<editable>1</editable>
+		<dispstyle>TextBox</dispstyle>
+		<datatype>
+			<typename>String</typename>
+			<length>10</length>
+			<minvalue>3</minvalue>
+			<maxvalue>10</maxvalue>
+		</datatype>
+		<selectdata />
+	</ConfigItem>
+	
+	<ConfigItem brief="最小连接数" name="MINNUM">
+		<value>1</value>
+		<description></description>
+		<defvalue>1</defvalue>
+		<editable>1</editable>
+		<dispstyle>TextBox</dispstyle>
+		<datatype>
+			<typename>int</typename>
+			<length>1</length>
+			<minvalue>1</minvalue>
+			<maxvalue>20</maxvalue>
+		</datatype>
+		<selectdata />
+	</ConfigItem>
+	
+	<ConfigItem brief="最大连接数" name="MAXNUM">
+		<value>10</value>
+		<description></description>
+		<defvalue>10</defvalue>
+		<editable>1</editable>
+		<dispstyle>TextBox</dispstyle>
+		<datatype>
+			<typename>int</typename>
+			<length>3</length>
+			<minvalue>10</minvalue>
+			<maxvalue>100</maxvalue>
+		</datatype>
+		<selectdata />
+	</ConfigItem>
+	
+</ConfigGroup>

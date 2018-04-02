@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="HopeTop">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../NBG/HopeTop" />
+    </CLASSES>
+    <JAVADOC />
+    <NATIVE>
+      <root url="file://$PROJECT_DIR$/../../../NBG/HopeTop" />
+    </NATIVE>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../../NBG/HopeTop" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../../../NBG/HopeTop" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../NBG/HopeTop" recursive="false" type="SOURCES" />
+  </library>
+</component>

@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<project name="sp-SKHGLoaderService" default="pack">
+
+	<!-- properies -->
+	<!-- 定义一些常量 -->
+	<property file="build.properties" />
+	<property name="src.dir" value="${basedir}/src" />
+	<property name="report.dir" value="${basedir}/report" />
+	<property name="lib.dir" value="${basedir}/lib" />
+	<property name="dist.dir" value="${basedir}/dist" />
+	<property name="doc.dir" value="${basedir}/doc" />
+	<property name="test.dir" value="${basedir}/test" />
+	<property name="target.dir" value="${basedir}/bin" />
+	<property name="classes.dir" value="WebRoot/WEB-INF/classes" />
+	<property name="target.classes.dir" value="${target.dir}" />
+	<property name="target.testclasses.dir" value="${target.dir}/test-classes" />
+	<property name="webroot.dir" value="${basedir}/WebRoot" />
+	<property name="db.dir" value="${basedir}/db" />
+
+	<!-- 定义classpath -->
+	<!-- 指明你所用到的jar包、class 文件存放的位置 -->
+	<path id="master-classpath">
+		<!--   <fileset file="WebRoot/WEB-INF/lib/*.jar" /> -->
+		<!-- 		<fileset file="${CXF.dir}/lib/*.jar" />	 -->
+		<fileset file="${SE.dir}/lib/*.jar" />
+		<pathelement path="${target.dir}" />
+	</path>
+
+	<path id="netserver-classpath">
+	 	<fileset file="${SE.dir}/services/sp-netservice-10.0.0.jar" />
+		<pathelement path="${target.dir}" />
+	</path>
+	
+	<!--清除所有输出目录-->
+	<target name="clean" description="清空所有输出目录">
+		<echo message="清空所有输出目录"/>
+		<delete dir="${target.classes.dir}" />
+		<delete dir="${target.testclasses.dir}" />
+		<delete dir="${target.dir}" />
+		<delete dir="${dist.dir}" />
+		<delete dir="${doc.dir}" />
+	</target>
+
+	<!-- 初始化任务 -->
+	<target name="init" depends="clean">
+	</target>
+
+	<!-- 编译 -->
+	<target name="compile" depends="init" description="编译所有的java类">
+		<echo message="编译所有的java类"/>
+		<mkdir dir="${target.classes.dir}" />
+		<javac srcdir="${src.dir}" destdir="${target.classes.dir}" target="1.6" debug="true">
+			<classpath refid="master-classpath" />
+			<classpath refid="netserver-classpath" />
+		</javac>
+	</target>
+
+	<!-- 测试     -->
+	<target name="test" depends="compile" description="进行单元测试">
+		<mkdir dir="${report.dir}"/>
+		<junit printsummary="on" 
+                haltonfailure="false" 
+                failureproperty="tests.failed" 
+                showoutput="true">
+			<classpath refid="master-classpath" />
+			<formatter type="plain"/>
+			<batchtest todir="${report.dir}">
+				<fileset dir="${classes.dir}">
+					<include name="**/*Test.*"/>
+				</fileset>
+			</batchtest>
+		</junit>
+		<fail if="tests.failed"> 
+        *********************************************************** 
+        **** 存在一个或多个错误 ，请检查错误 ...... **** 
+        *********************************************************** 
+        </fail>
+	</target>
+
+
+	<!--打包成jar -->
+	<target name="pack" depends="compile" description="打jar包">
+		<echo message="生成sp-SKHGLoaderService-1.0.jar"/>
+		<mkdir dir="${dist.dir}" />
+
+		<copy todir="${target.classes.dir}" overwrite="true" >
+			<fileset dir="${src.dir}">
+				<include name="*.xml"/>
+			</fileset>
+		</copy>
+
+		<!--
+		<copy todir="${target.classes.dir}/META-INF" overwrite="true">
+			<fileset dir="${basedir}/META-INF">
+				<include name="MANIFEST.MF" />
+			</fileset>
+		</copy>-->
+
+		<jar destfile="${SE.dir}/services/sp-SKHGLoaderService-1.0.jar" basedir="${target.classes.dir}">
+			<exclude name="**/*Test.*" />
+			<exclude name="**/Test*.*" />
+
+			<manifest>
+				<attribute name="Built-By" value="${user.name}" />
+				<section name="common">
+					<attribute name="Specification-Title" value="sp-SKHGLoaderService-1.0.jar" />
+					<attribute name="Specification-Version" value="10.0.0" />
+					<attribute name="Specification-Vendor" value="ecity" />
+					<attribute name="Specification-Maker" value="${user.name}" />
+					<attribute name="Implementation-Time" value="${touch.time}" />
+				</section>				
+			</manifest>
+		</jar>
+	</target>
+
+	<!-- 创建清单文件 -->
+	<target name="create.manifest" description="创建清单文件">
+
+		<tstamp>
+			<format property="touch.time" pattern="yyyy/MM/dd HH:mm" />
+		</tstamp>
+		<echo message="${touch.time}" />
+
+		<manifest file="META-INF/manifest.MF">
+			<attribute name="Built-By" value="${user.name}" />
+			<!-- <attribute name="Main-Class" value="powerwind.Sample" />-->
+			<attribute name="Specification-Title" value="sp-SKHGLoaderService-1.0.jar" />
+			<attribute name="Specification-Version" value="10.0.0" />
+			<attribute name="Specification-Vendor" value="ecity" />
+			<attribute name="Specification-Maker" value="${user.name}" />
+			<attribute name="Implementation-Time" value="${touch.time}" />
+		</manifest>
+	</target>
+
+	<!-- WEB应用打成war包 -->
+	<target name="war" depends="pack" description="打war包">
+		<echo message="生成your_project.war" />
+		<mkdir dir="${dist.dir}" />
+		<jar destfile="${dist.dir}/your_project.war" basedir="${webroot.dir}">
+			<exclude name="**/*Test.*" />
+			<exclude name="**/Test*.*" />
+		</jar>
+	</target>
+
+	<!-- 部署到tomcat webapps目录下-->
+	<target name="deploy-war" depends="war" description="部署到tomcat webapps 目录下">
+		<echo message="部署your_project.war到tomcat的webapps下" />
+		<copy todir="${tomcat.dir}/webapps" overwrite="true" >
+			<fileset dir="${dist.dir}">
+				<include name="your_project.war"/>
+			</fileset>
+		</copy>
+	</target>
+
+	<!-- 部署mysql数据库文件 -->
+	<target name="deploy-db" depends="deploy-war" description="初始化mysql数据库">
+		<echo message="部署数据库文件到mysql的data目录下"/>
+		<copy todir="${mysql.dir}/data" overwrite="ture">
+			<fileset dir="${db.dir}">
+				<include name="**/*.*" />
+			</fileset>
+		</copy>
+	</target>
+	<!-- 输出api文档 -->
+	<target name="doc" depends="compile" description="创建api文档">
+		<mkdir dir="${doc.dir}" />
+		<javadoc destdir="${doc.dir}" author="true" version="true" use="true" windowtitle="Your Project API">
+			<packageset dir="${src.dir}" defaultexcludes="yes">
+				<include name="com/pack/**" />
+				<!--所包含的包，这里需要根据实际进行改变 -->
+			</packageset>
+			<doctitle>
+				<![CDATA[<h1>Your Project description</h1>]]></doctitle>
+		<bottom>
+			<![CDATA[<i>Your companny Name,Inc,All Rights Reserved.</i>]]></bottom>
+	<tag name="todo" scope="all" description="To do:" />
+</javadoc>
+</target>
+</project>
