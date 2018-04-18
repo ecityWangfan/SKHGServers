@@ -111,4 +111,42 @@ public abstract interface SKHGServerRest {
             @QueryParam("f") @DefaultValue("json") String f,
             @QueryParam("tableName") @DefaultValue("") String tableName,
             @QueryParam("where") @DefaultValue("1=1") String where) throws Exception;
+
+    /**
+     * 智能指挥发送消息
+     *
+     * @param req
+     * @param f
+     * @param sender
+     * @param senderId
+     * @param msg
+     * @return
+     * @throws Exception
+     */
+    @GET
+    @Path("/sendICMsg")
+    @Produces({"application/json", "application/xml", "text/html"})
+    public abstract Object sendICMsg(
+            @Context HttpServletRequest req,
+            @QueryParam("f") @DefaultValue("json") String f,
+            @QueryParam("sender") @DefaultValue("") String sender,
+            @QueryParam("senderId") @DefaultValue("") String senderId,
+            @QueryParam("msg") @DefaultValue("") String msg) throws Exception;
+
+    /**
+     * 获取最新的智能指挥聊天记录
+     *
+     * @param req
+     * @param f
+     * @param number
+     * @return
+     * @throws Exception
+     */
+    @GET
+    @Path("/getNewestICMsgs")
+    @Produces({"application/json", "application/xml", "text/html"})
+    public abstract Object getNewestICMsgs(
+            @Context HttpServletRequest req,
+            @QueryParam("f") @DefaultValue("json") String f,
+            @QueryParam("number") @DefaultValue("100") int number) throws Exception;
 }

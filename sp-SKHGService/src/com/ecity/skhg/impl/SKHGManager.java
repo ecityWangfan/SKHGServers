@@ -1,17 +1,18 @@
 package com.ecity.skhg.impl;
 
 import java.io.File;
-import java.util.Arrays;
 import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
 
+import com.ecity.datatable.DataRow;
+import com.ecity.datatable.DataRowCollection;
+import com.ecity.datatable.DataTable;
 import com.ecity.feature.Feature;
 import com.ecity.feature.IFeatureClass;
 import com.ecity.feature.QueryFilter;
 import com.ecity.geometry.Geometry;
 import org.apache.commons.fileupload.FileItem;
-import org.apache.commons.fileupload.FileUpload;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
 import org.codehaus.jettison.json.JSONArray;
@@ -247,7 +248,7 @@ public class SKHGManager {
         try {
             ITableClass itc = this.workspace.getTableClass("MT_ATT_FIELD");
             QueryFilter qf = new QueryFilter();
-            qf.setWhere("TABLENAME='" + tableName + "'");
+            qf.setWhere("TABLENAME='" + tableName + "' AND VISIBLE=1");
             List<Record> list = itc.search(qf);
 
             ITableClass itc1 = this.workspace.getTableClass(tableName);
@@ -283,6 +284,7 @@ public class SKHGManager {
 
     /**
      * 查询空间表
+     *
      * @param tableName
      * @param where
      * @return
@@ -299,7 +301,7 @@ public class SKHGManager {
 
             ITableClass itc1 = this.workspace.getTableClass("MT_ATT_FIELD");
             QueryFilter qf1 = new QueryFilter();
-            qf1.setWhere("TABLENAME='" + tableName + "'");
+            qf1.setWhere("TABLENAME='" + tableName + "' AND VISIBLE=1");
             List<Record> field = itc1.search(qf1);
 
             JSONArray ja = new JSONArray();
@@ -324,6 +326,70 @@ public class SKHGManager {
             }
             result.put("data", ja);
             result.put("attr", jo);
+            result.put("success", true);
+        } catch (Exception e) {
+            result.put("success", false);
+            result.put("msg", e.getMessage());
+        }
+        return result;
+    }
+
+    /**
+     * 智能指挥发送消息
+     *
+     * @param sender
+     * @param senderId
+     * @param msg
+     * @return
+     * @throws JSONException
+     * @throws EcityException
+     */
+    public JSONObject sendICMsg(String sender, String senderId, String msg) throws JSONException, EcityException {
+        JSONObject result = new JSONObject();
+        try {
+            this.workspace.startEdit();
+            ITableClass itc = this.workspace.getTableClass("SK_ICOMMAND");
+            Record r = itc.createRecord();
+            r.setValue("SENDER", sender);
+            r.setValue("SENDERID", senderId);
+            r.setValue("MSG", msg);
+            itc.append(r);
+            this.workspace.endEdit();
+            result.put("success", true);
+        } catch (Exception e) {
+            this.workspace.rollbackEdit();
+            result.put("success", false);
+            result.put("msg", e.getMessage());
+        }
+        return result;
+    }
+
+    /**
+     * 获取最新的智能指挥聊天记录
+     *
+     * @param number
+     * @return
+     * @throws JSONException
+     * @throws EcityException
+     */
+    public JSONObject getNewestICMsgs(int number) throws JSONException, EcityException {
+        JSONObject result = new JSONObject();
+        try {
+            DataTable dt = this.workspace.getDb().executeSql(String.format("SELECT * FROM (SELECT * FROM SK_ICOMMAND ORDER BY SENDTIME DESC) WHERE ROWNUM <= %S ORDER BY SENDTIME ASC", number));
+            DataRowCollection drc = dt.getRows();
+            JSONArray ja = new JSONArray();
+            for (int i = 0; i < drc.size(); i++) {
+                DataRow dr = drc.get(i);
+                JSONObject jo = new JSONObject();
+                jo.put("gid", dr.getLong("GID"));
+                jo.put("sender", dr.getString("SENDER"));
+                jo.put("senderId", dr.getString("SENDERID"));
+                jo.put("sendTime", dr.getString("SENDTIME"));
+                jo.put("msg", dr.getString("MSG"));
+                jo.put("img", dr.getString("IMG"));
+                ja.put(jo);
+            }
+            result.put("data", ja);
             result.put("success", true);
         } catch (Exception e) {
             result.put("success", false);

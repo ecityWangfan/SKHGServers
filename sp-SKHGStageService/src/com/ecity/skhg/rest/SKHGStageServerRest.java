@@ -111,4 +111,20 @@ public abstract interface SKHGStageServerRest {
             @QueryParam("f") @DefaultValue("json") String f,
             @QueryParam("tableName") @DefaultValue("") String tableName,
             @QueryParam("where") @DefaultValue("1=1") String where) throws Exception;
+
+    /**
+     * 执行非查询sql语句
+     * @param req
+     * @param f
+     * @param sql
+     * @return
+     * @throws Exception
+     */
+    @GET
+    @Path("/excuteSqlNoQuery")
+    @Produces({"application/json", "application/xml", "text/html"})
+    public abstract Object excuteSqlNoQuery(
+            @Context HttpServletRequest req,
+            @QueryParam("f") @DefaultValue("json") String f,
+            @QueryParam("sql") @DefaultValue("") String sql) throws Exception;
 }

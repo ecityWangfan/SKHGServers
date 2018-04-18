@@ -42,4 +42,18 @@ public class SKHGLoaderServerRestImpl implements SKHGLoaderServerRest {
         return response;
     }
 
+    @Override
+    public Object querProGL(HttpServletRequest req, String f, String proName, String parms) throws Exception {
+        Response response = null;
+        JSONObject jsonObject = new JSONObject();
+        try {
+            jsonObject = new SKHGLoaderManager(CORE).querProGL(proName, parms);
+        } catch (Exception ex) {
+            ex.printStackTrace();
+            jsonObject = ServerJSON.ecityException(new EcityException(ex.getMessage()));
+        }
+        response = ResponseTool.jsonObjectResponse(jsonObject, req);
+        return response;
+    }
+
 }

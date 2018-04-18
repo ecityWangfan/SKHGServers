@@ -1,150 +1,150 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
   <component name="EclipseModuleManager">
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/ant.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/antlr-2.7.7.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/aopalliance-1.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/arcgis_schemas-10.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/asm-5.0.4.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/bcprov-jdk15-1.43.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/commons-beanutils-1.8.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/commons-codec-1.10.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/commons-collections-3.2.1.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/commons-collections4-4.1.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/commons-dbcp2-2.1.1.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/commons-email-1.2.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/commons-fileupload-1.3.1.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/commons-io-2.4.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/commons-lang-2.6.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/commons-lang3-3.4.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/commons-logging-1.2.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/commons-pool2-2.4.2.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-core-3.1.6.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-manifest.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-bindings-soap-3.1.6.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-bindings-xml-3.1.6.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-databinding-jaxb-3.1.6.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-frontend-jaxrs-3.1.6.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-frontend-jaxws-3.1.6.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-frontend-simple-3.1.6.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-rs-client-3.1.6.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-rs-extension-providers-3.1.6.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-rs-extension-search-3.1.6.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-rs-json-basic-3.1.6.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-rs-security-cors-3.1.6.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-rs-security-jose-3.1.6.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-rs-security-jose-jaxrs-3.1.6.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-rs-security-oauth2-3.1.6.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-rs-security-oauth-3.1.6.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-rs-security-sso-saml-3.1.6.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-rs-security-xml-3.1.6.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-rs-service-description-3.1.6.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-transports-http-3.1.6.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-transports-http-hc-3.1.6.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-transports-udp-3.1.6.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-ws-addr-3.1.6.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-wsdl-3.1.6.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-ws-policy-3.1.6.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-ws-security-3.1.6.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-services-sts-core-3.1.6.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/dom4j-1.6.1.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/ecityNBPortAll-2.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/ecityProcessManager-1.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/ecityTileFactory-1.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/ecityUserCore-2.1.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/ehcache-2.10.1.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/FastInfoset-1.2.12.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/filters.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/freemarker-2.3.19.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/geronimo-javamail_1.4_spec-1.7.1.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/geronimo-jaxws_2.2_spec-1.1.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/geronimo-jms_1.1_spec-1.1.1.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/geronimo-servlet_3.0_spec-1.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/gson-2.2.4.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/gson-2.7.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/hopeObjects.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/httpasyncclient-4.1.1.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/httpclient-4.5.2.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/httpcore-4.4.4.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/httpcore-nio-4.4.4.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/IKAnalyzer2012FF_u1.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/ImApi.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/isorelax-20030108.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/itext-2.1.5.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/javax.ws.rs-api-2.0.1.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/jaxb-core-2.2.11.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/jaxb-impl-2.2.11.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/jaxen-1.1.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/jcl-over-slf4j-1.7.19.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/jettison-1.3.7.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/joda-time-1.6.2.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/jra-1.0-alpha-4.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/js-1.7R2.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/jsr311-api-1.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/junit-3.8.1.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/jxl-2.4.2.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/libTokenSeedInvCipher-1.0.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/lipermi-0.4.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/log4j-1.2.13.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/lucene-core-3.6.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/MapSvrProcess.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/mina-core-2.0.9.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/mongo-java-driver-3.2.0-rc0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/mongo-java-driver-3.2.0-rc0-javadoc.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/mongo-java-driver-3.2.0-rc0-sources.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/mssqlserver.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/msv-core-2011.1.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/mysql-connector-java-5.1.26-bin.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/neethi-3.0.3.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/oauth-20100527.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/oauth-provider-20100527.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/ojdbc6.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/ooxml-schemas-1.1.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/opensaml-2.5.1-1.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/openws-1.4.2-1.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/oro-2.0.8.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/patrolPositionStorage.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/poi-3.15.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/poi-excelant-3.15.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/poi-ooxml-3.15.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/poi-ooxml-schemas-3.15.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/poi-scratchpad-3.15.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/postgresql-9.4-1201.jdbc4.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/relaxngDatatype-20020414.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/saaj-api-1.3.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/saaj-impl-1.3.2.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/se-cluster.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/se-core.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/serializer-2.7.1.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/slf4j-api-1.7.19.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/slf4j-jdk14-1.7.19.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/spring-aop-4.1.9.RELEASE.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/spring-beans-4.1.9.RELEASE.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/spring-context-4.1.9.RELEASE.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/spring-core-4.1.9.RELEASE.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/spring-expression-4.1.9.RELEASE.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/spring-web-4.1.9.RELEASE.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/sqlitejdbc-v056.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/sqljdbc4.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/stax2-api-3.1.4.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/thumbnailator-0.4.2.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/velocity-1.7.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/wContour.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/woodstox-core-asl-4.4.1.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/wsdl4j-1.6.3.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/wss4j-1.6.11.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/wstx-asl-3.2.9.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/xalan-2.7.1.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/xmlbeans-2.6.0.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/xmlpull-1.1.3.1.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/xml-resolver-1.2.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/xmlschema-core-2.2.1.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/xmlsec-2.0.6.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/xmltooling-1.3.2-1.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/xpp3_min-1.1.4c.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/xsdlib-2010.1.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/xstream-1.4.7.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/../../../NBG/HopeTop/yardCheckCore-1.0.0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/ant.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/antlr-2.7.7.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/aopalliance-1.0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/arcgis_schemas-10.0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/asm-5.0.4.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/bcprov-jdk15-1.43.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/commons-beanutils-1.8.0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/commons-codec-1.10.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/commons-collections-3.2.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/commons-collections4-4.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/commons-dbcp2-2.1.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/commons-email-1.2.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/commons-fileupload-1.3.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/commons-io-2.4.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/commons-lang-2.6.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/commons-lang3-3.4.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/commons-logging-1.2.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/commons-pool2-2.4.2.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-core-3.1.6.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-manifest.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-bindings-soap-3.1.6.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-bindings-xml-3.1.6.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-databinding-jaxb-3.1.6.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-frontend-jaxrs-3.1.6.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-frontend-jaxws-3.1.6.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-frontend-simple-3.1.6.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-rs-client-3.1.6.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-rs-extension-providers-3.1.6.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-rs-extension-search-3.1.6.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-rs-json-basic-3.1.6.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-rs-security-cors-3.1.6.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-rs-security-jose-3.1.6.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-rs-security-jose-jaxrs-3.1.6.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-rs-security-oauth2-3.1.6.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-rs-security-oauth-3.1.6.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-rs-security-sso-saml-3.1.6.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-rs-security-xml-3.1.6.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-rs-service-description-3.1.6.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-transports-http-3.1.6.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-transports-http-hc-3.1.6.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-transports-udp-3.1.6.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-ws-addr-3.1.6.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-wsdl-3.1.6.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-ws-policy-3.1.6.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-ws-security-3.1.6.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-services-sts-core-3.1.6.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/dom4j-1.6.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/ecityNBPortAll-2.0.0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/ecityProcessManager-1.0.0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/ecityTileFactory-1.0.0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/ecityUserCore-2.1.0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/ehcache-2.10.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/FastInfoset-1.2.12.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/filters.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/freemarker-2.3.19.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/geronimo-javamail_1.4_spec-1.7.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/geronimo-jaxws_2.2_spec-1.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/geronimo-jms_1.1_spec-1.1.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/geronimo-servlet_3.0_spec-1.0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/gson-2.2.4.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/gson-2.7.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/hopeObjects.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/httpasyncclient-4.1.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/httpclient-4.5.2.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/httpcore-4.4.4.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/httpcore-nio-4.4.4.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/IKAnalyzer2012FF_u1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/ImApi.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/isorelax-20030108.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/itext-2.1.5.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/javax.ws.rs-api-2.0.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/jaxb-core-2.2.11.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/jaxb-impl-2.2.11.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/jaxen-1.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/jcl-over-slf4j-1.7.19.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/jettison-1.3.7.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/joda-time-1.6.2.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/jra-1.0-alpha-4.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/js-1.7R2.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/jsr311-api-1.0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/junit-3.8.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/jxl-2.4.2.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/libTokenSeedInvCipher-1.0.0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/lipermi-0.4.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/log4j-1.2.13.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/lucene-core-3.6.0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/MapSvrProcess.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/mina-core-2.0.9.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/mongo-java-driver-3.2.0-rc0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/mongo-java-driver-3.2.0-rc0-javadoc.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/mongo-java-driver-3.2.0-rc0-sources.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/mssqlserver.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/msv-core-2011.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/mysql-connector-java-5.1.26-bin.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/neethi-3.0.3.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/oauth-20100527.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/oauth-provider-20100527.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/ojdbc6.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/ooxml-schemas-1.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/opensaml-2.5.1-1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/openws-1.4.2-1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/oro-2.0.8.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/patrolPositionStorage.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/poi-3.15.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/poi-excelant-3.15.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/poi-ooxml-3.15.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/poi-ooxml-schemas-3.15.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/poi-scratchpad-3.15.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/postgresql-9.4-1201.jdbc4.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/relaxngDatatype-20020414.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/saaj-api-1.3.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/saaj-impl-1.3.2.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/se-cluster.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/se-core.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/serializer-2.7.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/slf4j-api-1.7.19.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/slf4j-jdk14-1.7.19.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/spring-aop-4.1.9.RELEASE.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/spring-beans-4.1.9.RELEASE.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/spring-context-4.1.9.RELEASE.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/spring-core-4.1.9.RELEASE.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/spring-expression-4.1.9.RELEASE.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/spring-web-4.1.9.RELEASE.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/sqlitejdbc-v056.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/sqljdbc4.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/stax2-api-3.1.4.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/thumbnailator-0.4.2.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/velocity-1.7.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/wContour.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/woodstox-core-asl-4.4.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/wsdl4j-1.6.3.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/wss4j-1.6.11.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/wstx-asl-3.2.9.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/xalan-2.7.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/xmlbeans-2.6.0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/xmlpull-1.1.3.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/xml-resolver-1.2.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/xmlschema-core-2.2.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/xmlsec-2.0.6.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/xmltooling-1.3.2-1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/xpp3_min-1.1.4c.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/xsdlib-2010.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/xstream-1.4.7.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../NBG/HopeTop/yardCheckCore-1.0.0.jar!/" />
     <src_description expected_position="0">
       <src_folder value="file://$MODULE_DIR$/src" expected_position="0" />
     </src_description>
@@ -160,7 +160,7 @@
     <orderEntry type="module-library">
       <library name="ant.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/ant.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/ant.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -169,7 +169,7 @@
     <orderEntry type="module-library">
       <library name="antlr-2.7.7.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/antlr-2.7.7.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/antlr-2.7.7.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -178,7 +178,7 @@
     <orderEntry type="module-library">
       <library name="aopalliance-1.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/aopalliance-1.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/aopalliance-1.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -187,7 +187,7 @@
     <orderEntry type="module-library">
       <library name="arcgis_schemas-10.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/arcgis_schemas-10.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/arcgis_schemas-10.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -196,7 +196,7 @@
     <orderEntry type="module-library">
       <library name="asm-5.0.4.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/asm-5.0.4.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/asm-5.0.4.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -205,7 +205,7 @@
     <orderEntry type="module-library">
       <library name="bcprov-jdk15-1.43.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/bcprov-jdk15-1.43.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/bcprov-jdk15-1.43.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -214,7 +214,7 @@
     <orderEntry type="module-library">
       <library name="commons-beanutils-1.8.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/commons-beanutils-1.8.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/commons-beanutils-1.8.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -223,7 +223,7 @@
     <orderEntry type="module-library">
       <library name="commons-codec-1.10.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/commons-codec-1.10.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/commons-codec-1.10.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -232,7 +232,7 @@
     <orderEntry type="module-library">
       <library name="commons-collections-3.2.1.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/commons-collections-3.2.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/commons-collections-3.2.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -241,7 +241,7 @@
     <orderEntry type="module-library">
       <library name="commons-collections4-4.1.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/commons-collections4-4.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/commons-collections4-4.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -250,7 +250,7 @@
     <orderEntry type="module-library">
       <library name="commons-dbcp2-2.1.1.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/commons-dbcp2-2.1.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/commons-dbcp2-2.1.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -259,7 +259,7 @@
     <orderEntry type="module-library">
       <library name="commons-email-1.2.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/commons-email-1.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/commons-email-1.2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -268,7 +268,7 @@
     <orderEntry type="module-library">
       <library name="commons-fileupload-1.3.1.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/commons-fileupload-1.3.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/commons-fileupload-1.3.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -277,7 +277,7 @@
     <orderEntry type="module-library">
       <library name="commons-io-2.4.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/commons-io-2.4.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/commons-io-2.4.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -286,7 +286,7 @@
     <orderEntry type="module-library">
       <library name="commons-lang-2.6.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/commons-lang-2.6.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/commons-lang-2.6.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -295,7 +295,7 @@
     <orderEntry type="module-library">
       <library name="commons-lang3-3.4.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/commons-lang3-3.4.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/commons-lang3-3.4.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -304,7 +304,7 @@
     <orderEntry type="module-library">
       <library name="commons-logging-1.2.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/commons-logging-1.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/commons-logging-1.2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -313,7 +313,7 @@
     <orderEntry type="module-library">
       <library name="commons-pool2-2.4.2.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/commons-pool2-2.4.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/commons-pool2-2.4.2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -322,7 +322,7 @@
     <orderEntry type="module-library">
       <library name="cxf-core-3.1.6.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-core-3.1.6.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-core-3.1.6.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -331,7 +331,7 @@
     <orderEntry type="module-library">
       <library name="cxf-manifest.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-manifest.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-manifest.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -340,7 +340,7 @@
     <orderEntry type="module-library">
       <library name="cxf-rt-bindings-soap-3.1.6.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-bindings-soap-3.1.6.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-bindings-soap-3.1.6.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -349,7 +349,7 @@
     <orderEntry type="module-library">
       <library name="cxf-rt-bindings-xml-3.1.6.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-bindings-xml-3.1.6.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-bindings-xml-3.1.6.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -358,7 +358,7 @@
     <orderEntry type="module-library">
       <library name="cxf-rt-databinding-jaxb-3.1.6.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-databinding-jaxb-3.1.6.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-databinding-jaxb-3.1.6.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -367,7 +367,7 @@
     <orderEntry type="module-library">
       <library name="cxf-rt-frontend-jaxrs-3.1.6.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-frontend-jaxrs-3.1.6.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-frontend-jaxrs-3.1.6.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -376,7 +376,7 @@
     <orderEntry type="module-library">
       <library name="cxf-rt-frontend-jaxws-3.1.6.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-frontend-jaxws-3.1.6.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-frontend-jaxws-3.1.6.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -385,7 +385,7 @@
     <orderEntry type="module-library">
       <library name="cxf-rt-frontend-simple-3.1.6.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-frontend-simple-3.1.6.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-frontend-simple-3.1.6.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -394,7 +394,7 @@
     <orderEntry type="module-library">
       <library name="cxf-rt-rs-client-3.1.6.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-rs-client-3.1.6.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-rs-client-3.1.6.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -403,7 +403,7 @@
     <orderEntry type="module-library">
       <library name="cxf-rt-rs-extension-providers-3.1.6.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-rs-extension-providers-3.1.6.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-rs-extension-providers-3.1.6.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -412,7 +412,7 @@
     <orderEntry type="module-library">
       <library name="cxf-rt-rs-extension-search-3.1.6.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-rs-extension-search-3.1.6.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-rs-extension-search-3.1.6.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -421,7 +421,7 @@
     <orderEntry type="module-library">
       <library name="cxf-rt-rs-json-basic-3.1.6.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-rs-json-basic-3.1.6.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-rs-json-basic-3.1.6.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -430,7 +430,7 @@
     <orderEntry type="module-library">
       <library name="cxf-rt-rs-security-cors-3.1.6.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-rs-security-cors-3.1.6.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-rs-security-cors-3.1.6.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -439,7 +439,7 @@
     <orderEntry type="module-library">
       <library name="cxf-rt-rs-security-jose-3.1.6.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-rs-security-jose-3.1.6.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-rs-security-jose-3.1.6.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -448,7 +448,7 @@
     <orderEntry type="module-library">
       <library name="cxf-rt-rs-security-jose-jaxrs-3.1.6.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-rs-security-jose-jaxrs-3.1.6.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-rs-security-jose-jaxrs-3.1.6.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -457,7 +457,7 @@
     <orderEntry type="module-library">
       <library name="cxf-rt-rs-security-oauth2-3.1.6.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-rs-security-oauth2-3.1.6.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-rs-security-oauth2-3.1.6.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -466,7 +466,7 @@
     <orderEntry type="module-library">
       <library name="cxf-rt-rs-security-oauth-3.1.6.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-rs-security-oauth-3.1.6.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-rs-security-oauth-3.1.6.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -475,7 +475,7 @@
     <orderEntry type="module-library">
       <library name="cxf-rt-rs-security-sso-saml-3.1.6.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-rs-security-sso-saml-3.1.6.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-rs-security-sso-saml-3.1.6.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -484,7 +484,7 @@
     <orderEntry type="module-library">
       <library name="cxf-rt-rs-security-xml-3.1.6.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-rs-security-xml-3.1.6.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-rs-security-xml-3.1.6.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -493,7 +493,7 @@
     <orderEntry type="module-library">
       <library name="cxf-rt-rs-service-description-3.1.6.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-rs-service-description-3.1.6.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-rs-service-description-3.1.6.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -502,7 +502,7 @@
     <orderEntry type="module-library">
       <library name="cxf-rt-transports-http-3.1.6.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-transports-http-3.1.6.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-transports-http-3.1.6.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -511,7 +511,7 @@
     <orderEntry type="module-library">
       <library name="cxf-rt-transports-http-hc-3.1.6.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-transports-http-hc-3.1.6.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-transports-http-hc-3.1.6.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -520,7 +520,7 @@
     <orderEntry type="module-library">
       <library name="cxf-rt-transports-udp-3.1.6.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-transports-udp-3.1.6.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-transports-udp-3.1.6.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -529,7 +529,7 @@
     <orderEntry type="module-library">
       <library name="cxf-rt-ws-addr-3.1.6.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-ws-addr-3.1.6.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-ws-addr-3.1.6.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -538,7 +538,7 @@
     <orderEntry type="module-library">
       <library name="cxf-rt-wsdl-3.1.6.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-wsdl-3.1.6.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-wsdl-3.1.6.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -547,7 +547,7 @@
     <orderEntry type="module-library">
       <library name="cxf-rt-ws-policy-3.1.6.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-ws-policy-3.1.6.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-ws-policy-3.1.6.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -556,7 +556,7 @@
     <orderEntry type="module-library">
       <library name="cxf-rt-ws-security-3.1.6.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-rt-ws-security-3.1.6.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-rt-ws-security-3.1.6.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -565,7 +565,7 @@
     <orderEntry type="module-library">
       <library name="cxf-services-sts-core-3.1.6.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/cxf-services-sts-core-3.1.6.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/cxf-services-sts-core-3.1.6.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -574,7 +574,7 @@
     <orderEntry type="module-library">
       <library name="dom4j-1.6.1.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/dom4j-1.6.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/dom4j-1.6.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -583,7 +583,7 @@
     <orderEntry type="module-library">
       <library name="ecityNBPortAll-2.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/ecityNBPortAll-2.0.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/ecityNBPortAll-2.0.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -592,7 +592,7 @@
     <orderEntry type="module-library">
       <library name="ecityProcessManager-1.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/ecityProcessManager-1.0.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/ecityProcessManager-1.0.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -601,7 +601,7 @@
     <orderEntry type="module-library">
       <library name="ecityTileFactory-1.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/ecityTileFactory-1.0.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/ecityTileFactory-1.0.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -610,7 +610,7 @@
     <orderEntry type="module-library">
       <library name="ecityUserCore-2.1.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/ecityUserCore-2.1.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/ecityUserCore-2.1.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -619,7 +619,7 @@
     <orderEntry type="module-library">
       <library name="ehcache-2.10.1.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/ehcache-2.10.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/ehcache-2.10.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -628,7 +628,7 @@
     <orderEntry type="module-library">
       <library name="FastInfoset-1.2.12.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/FastInfoset-1.2.12.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/FastInfoset-1.2.12.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -637,7 +637,7 @@
     <orderEntry type="module-library">
       <library name="filters.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/filters.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/filters.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -646,7 +646,7 @@
     <orderEntry type="module-library">
       <library name="freemarker-2.3.19.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/freemarker-2.3.19.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/freemarker-2.3.19.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -655,7 +655,7 @@
     <orderEntry type="module-library">
       <library name="geronimo-javamail_1.4_spec-1.7.1.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/geronimo-javamail_1.4_spec-1.7.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/geronimo-javamail_1.4_spec-1.7.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -664,7 +664,7 @@
     <orderEntry type="module-library">
       <library name="geronimo-jaxws_2.2_spec-1.1.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/geronimo-jaxws_2.2_spec-1.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/geronimo-jaxws_2.2_spec-1.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -673,7 +673,7 @@
     <orderEntry type="module-library">
       <library name="geronimo-jms_1.1_spec-1.1.1.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/geronimo-jms_1.1_spec-1.1.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/geronimo-jms_1.1_spec-1.1.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -682,7 +682,7 @@
     <orderEntry type="module-library">
       <library name="geronimo-servlet_3.0_spec-1.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/geronimo-servlet_3.0_spec-1.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/geronimo-servlet_3.0_spec-1.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -691,7 +691,7 @@
     <orderEntry type="module-library">
       <library name="gson-2.2.4.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/gson-2.2.4.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/gson-2.2.4.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -700,7 +700,7 @@
     <orderEntry type="module-library">
       <library name="gson-2.7.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/gson-2.7.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/gson-2.7.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -709,7 +709,7 @@
     <orderEntry type="module-library">
       <library name="hopeObjects.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/hopeObjects.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/hopeObjects.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -718,7 +718,7 @@
     <orderEntry type="module-library">
       <library name="httpasyncclient-4.1.1.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/httpasyncclient-4.1.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/httpasyncclient-4.1.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -727,7 +727,7 @@
     <orderEntry type="module-library">
       <library name="httpclient-4.5.2.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/httpclient-4.5.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/httpclient-4.5.2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -736,7 +736,7 @@
     <orderEntry type="module-library">
       <library name="httpcore-4.4.4.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/httpcore-4.4.4.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/httpcore-4.4.4.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -745,7 +745,7 @@
     <orderEntry type="module-library">
       <library name="httpcore-nio-4.4.4.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/httpcore-nio-4.4.4.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/httpcore-nio-4.4.4.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -754,7 +754,7 @@
     <orderEntry type="module-library">
       <library name="IKAnalyzer2012FF_u1.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/IKAnalyzer2012FF_u1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/IKAnalyzer2012FF_u1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -763,7 +763,7 @@
     <orderEntry type="module-library">
       <library name="ImApi.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/ImApi.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/ImApi.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -772,7 +772,7 @@
     <orderEntry type="module-library">
       <library name="isorelax-20030108.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/isorelax-20030108.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/isorelax-20030108.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -781,7 +781,7 @@
     <orderEntry type="module-library">
       <library name="itext-2.1.5.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/itext-2.1.5.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/itext-2.1.5.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -790,7 +790,7 @@
     <orderEntry type="module-library">
       <library name="javax.ws.rs-api-2.0.1.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/javax.ws.rs-api-2.0.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/javax.ws.rs-api-2.0.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -799,7 +799,7 @@
     <orderEntry type="module-library">
       <library name="jaxb-core-2.2.11.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/jaxb-core-2.2.11.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/jaxb-core-2.2.11.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -808,7 +808,7 @@
     <orderEntry type="module-library">
       <library name="jaxb-impl-2.2.11.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/jaxb-impl-2.2.11.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/jaxb-impl-2.2.11.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -817,7 +817,7 @@
     <orderEntry type="module-library">
       <library name="jaxen-1.1.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/jaxen-1.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/jaxen-1.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -826,7 +826,7 @@
     <orderEntry type="module-library">
       <library name="jcl-over-slf4j-1.7.19.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/jcl-over-slf4j-1.7.19.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/jcl-over-slf4j-1.7.19.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -835,7 +835,7 @@
     <orderEntry type="module-library">
       <library name="jettison-1.3.7.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/jettison-1.3.7.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/jettison-1.3.7.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -844,7 +844,7 @@
     <orderEntry type="module-library">
       <library name="joda-time-1.6.2.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/joda-time-1.6.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/joda-time-1.6.2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -853,7 +853,7 @@
     <orderEntry type="module-library">
       <library name="jra-1.0-alpha-4.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/jra-1.0-alpha-4.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/jra-1.0-alpha-4.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -862,7 +862,7 @@
     <orderEntry type="module-library">
       <library name="js-1.7R2.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/js-1.7R2.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/js-1.7R2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -871,7 +871,7 @@
     <orderEntry type="module-library">
       <library name="jsr311-api-1.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/jsr311-api-1.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/jsr311-api-1.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -880,7 +880,7 @@
     <orderEntry type="module-library">
       <library name="junit-3.8.1.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/junit-3.8.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/junit-3.8.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -889,7 +889,7 @@
     <orderEntry type="module-library">
       <library name="jxl-2.4.2.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/jxl-2.4.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/jxl-2.4.2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -898,7 +898,7 @@
     <orderEntry type="module-library">
       <library name="libTokenSeedInvCipher-1.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/libTokenSeedInvCipher-1.0.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/libTokenSeedInvCipher-1.0.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -907,7 +907,7 @@
     <orderEntry type="module-library">
       <library name="lipermi-0.4.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/lipermi-0.4.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/lipermi-0.4.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -916,7 +916,7 @@
     <orderEntry type="module-library">
       <library name="log4j-1.2.13.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/log4j-1.2.13.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/log4j-1.2.13.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -925,7 +925,7 @@
     <orderEntry type="module-library">
       <library name="lucene-core-3.6.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/lucene-core-3.6.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/lucene-core-3.6.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -934,7 +934,7 @@
     <orderEntry type="module-library">
       <library name="MapSvrProcess.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/MapSvrProcess.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/MapSvrProcess.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -943,7 +943,7 @@
     <orderEntry type="module-library">
       <library name="mina-core-2.0.9.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/mina-core-2.0.9.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/mina-core-2.0.9.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -952,7 +952,7 @@
     <orderEntry type="module-library">
       <library name="mongo-java-driver-3.2.0-rc0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/mongo-java-driver-3.2.0-rc0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/mongo-java-driver-3.2.0-rc0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -961,7 +961,7 @@
     <orderEntry type="module-library">
       <library name="mongo-java-driver-3.2.0-rc0-javadoc.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/mongo-java-driver-3.2.0-rc0-javadoc.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/mongo-java-driver-3.2.0-rc0-javadoc.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -970,7 +970,7 @@
     <orderEntry type="module-library">
       <library name="mongo-java-driver-3.2.0-rc0-sources.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/mongo-java-driver-3.2.0-rc0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/mongo-java-driver-3.2.0-rc0-sources.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -979,7 +979,7 @@
     <orderEntry type="module-library">
       <library name="mssqlserver.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/mssqlserver.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/mssqlserver.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -988,7 +988,7 @@
     <orderEntry type="module-library">
       <library name="msv-core-2011.1.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/msv-core-2011.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/msv-core-2011.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -997,7 +997,7 @@
     <orderEntry type="module-library">
       <library name="mysql-connector-java-5.1.26-bin.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/mysql-connector-java-5.1.26-bin.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/mysql-connector-java-5.1.26-bin.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1006,7 +1006,7 @@
     <orderEntry type="module-library">
       <library name="neethi-3.0.3.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/neethi-3.0.3.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/neethi-3.0.3.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1015,7 +1015,7 @@
     <orderEntry type="module-library">
       <library name="oauth-20100527.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/oauth-20100527.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/oauth-20100527.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1024,7 +1024,7 @@
     <orderEntry type="module-library">
       <library name="oauth-provider-20100527.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/oauth-provider-20100527.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/oauth-provider-20100527.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1033,7 +1033,7 @@
     <orderEntry type="module-library">
       <library name="ojdbc6.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/ojdbc6.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/ojdbc6.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1042,7 +1042,7 @@
     <orderEntry type="module-library">
       <library name="ooxml-schemas-1.1.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/ooxml-schemas-1.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/ooxml-schemas-1.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1051,7 +1051,7 @@
     <orderEntry type="module-library">
       <library name="opensaml-2.5.1-1.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/opensaml-2.5.1-1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/opensaml-2.5.1-1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1060,7 +1060,7 @@
     <orderEntry type="module-library">
       <library name="openws-1.4.2-1.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/openws-1.4.2-1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/openws-1.4.2-1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1069,7 +1069,7 @@
     <orderEntry type="module-library">
       <library name="oro-2.0.8.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/oro-2.0.8.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/oro-2.0.8.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1078,7 +1078,7 @@
     <orderEntry type="module-library">
       <library name="patrolPositionStorage.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/patrolPositionStorage.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/patrolPositionStorage.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1087,7 +1087,7 @@
     <orderEntry type="module-library">
       <library name="poi-3.15.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/poi-3.15.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/poi-3.15.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1096,7 +1096,7 @@
     <orderEntry type="module-library">
       <library name="poi-excelant-3.15.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/poi-excelant-3.15.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/poi-excelant-3.15.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1105,7 +1105,7 @@
     <orderEntry type="module-library">
       <library name="poi-ooxml-3.15.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/poi-ooxml-3.15.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/poi-ooxml-3.15.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1114,7 +1114,7 @@
     <orderEntry type="module-library">
       <library name="poi-ooxml-schemas-3.15.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/poi-ooxml-schemas-3.15.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/poi-ooxml-schemas-3.15.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1123,7 +1123,7 @@
     <orderEntry type="module-library">
       <library name="poi-scratchpad-3.15.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/poi-scratchpad-3.15.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/poi-scratchpad-3.15.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1132,7 +1132,7 @@
     <orderEntry type="module-library">
       <library name="postgresql-9.4-1201.jdbc4.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/postgresql-9.4-1201.jdbc4.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/postgresql-9.4-1201.jdbc4.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1141,7 +1141,7 @@
     <orderEntry type="module-library">
       <library name="relaxngDatatype-20020414.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/relaxngDatatype-20020414.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/relaxngDatatype-20020414.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1150,7 +1150,7 @@
     <orderEntry type="module-library">
       <library name="saaj-api-1.3.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/saaj-api-1.3.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/saaj-api-1.3.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1159,7 +1159,7 @@
     <orderEntry type="module-library">
       <library name="saaj-impl-1.3.2.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/saaj-impl-1.3.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/saaj-impl-1.3.2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1168,7 +1168,7 @@
     <orderEntry type="module-library">
       <library name="se-cluster.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/se-cluster.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/se-cluster.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1177,7 +1177,7 @@
     <orderEntry type="module-library">
       <library name="se-core.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/se-core.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/se-core.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1186,7 +1186,7 @@
     <orderEntry type="module-library">
       <library name="serializer-2.7.1.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/serializer-2.7.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/serializer-2.7.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1195,7 +1195,7 @@
     <orderEntry type="module-library">
       <library name="slf4j-api-1.7.19.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/slf4j-api-1.7.19.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/slf4j-api-1.7.19.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1204,7 +1204,7 @@
     <orderEntry type="module-library">
       <library name="slf4j-jdk14-1.7.19.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/slf4j-jdk14-1.7.19.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/slf4j-jdk14-1.7.19.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1213,7 +1213,7 @@
     <orderEntry type="module-library">
       <library name="spring-aop-4.1.9.RELEASE.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/spring-aop-4.1.9.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/spring-aop-4.1.9.RELEASE.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1222,7 +1222,7 @@
     <orderEntry type="module-library">
       <library name="spring-beans-4.1.9.RELEASE.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/spring-beans-4.1.9.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/spring-beans-4.1.9.RELEASE.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1231,7 +1231,7 @@
     <orderEntry type="module-library">
       <library name="spring-context-4.1.9.RELEASE.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/spring-context-4.1.9.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/spring-context-4.1.9.RELEASE.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1240,7 +1240,7 @@
     <orderEntry type="module-library">
       <library name="spring-core-4.1.9.RELEASE.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/spring-core-4.1.9.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/spring-core-4.1.9.RELEASE.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1249,7 +1249,7 @@
     <orderEntry type="module-library">
       <library name="spring-expression-4.1.9.RELEASE.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/spring-expression-4.1.9.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/spring-expression-4.1.9.RELEASE.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1258,7 +1258,7 @@
     <orderEntry type="module-library">
       <library name="spring-web-4.1.9.RELEASE.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/spring-web-4.1.9.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/spring-web-4.1.9.RELEASE.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1267,7 +1267,7 @@
     <orderEntry type="module-library">
       <library name="sqlitejdbc-v056.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/sqlitejdbc-v056.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/sqlitejdbc-v056.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1276,7 +1276,7 @@
     <orderEntry type="module-library">
       <library name="sqljdbc4.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/sqljdbc4.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/sqljdbc4.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1285,7 +1285,7 @@
     <orderEntry type="module-library">
       <library name="stax2-api-3.1.4.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/stax2-api-3.1.4.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/stax2-api-3.1.4.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1294,7 +1294,7 @@
     <orderEntry type="module-library">
       <library name="thumbnailator-0.4.2.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/thumbnailator-0.4.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/thumbnailator-0.4.2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1303,7 +1303,7 @@
     <orderEntry type="module-library">
       <library name="velocity-1.7.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/velocity-1.7.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/velocity-1.7.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1312,7 +1312,7 @@
     <orderEntry type="module-library">
       <library name="wContour.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/wContour.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/wContour.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1321,7 +1321,7 @@
     <orderEntry type="module-library">
       <library name="woodstox-core-asl-4.4.1.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/woodstox-core-asl-4.4.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/woodstox-core-asl-4.4.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1330,7 +1330,7 @@
     <orderEntry type="module-library">
       <library name="wsdl4j-1.6.3.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/wsdl4j-1.6.3.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/wsdl4j-1.6.3.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1339,7 +1339,7 @@
     <orderEntry type="module-library">
       <library name="wss4j-1.6.11.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/wss4j-1.6.11.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/wss4j-1.6.11.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1348,7 +1348,7 @@
     <orderEntry type="module-library">
       <library name="wstx-asl-3.2.9.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/wstx-asl-3.2.9.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/wstx-asl-3.2.9.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1357,7 +1357,7 @@
     <orderEntry type="module-library">
       <library name="xalan-2.7.1.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/xalan-2.7.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/xalan-2.7.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1366,7 +1366,7 @@
     <orderEntry type="module-library">
       <library name="xmlbeans-2.6.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/xmlbeans-2.6.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/xmlbeans-2.6.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1375,7 +1375,7 @@
     <orderEntry type="module-library">
       <library name="xmlpull-1.1.3.1.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/xmlpull-1.1.3.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/xmlpull-1.1.3.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1384,7 +1384,7 @@
     <orderEntry type="module-library">
       <library name="xml-resolver-1.2.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/xml-resolver-1.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/xml-resolver-1.2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1393,7 +1393,7 @@
     <orderEntry type="module-library">
       <library name="xmlschema-core-2.2.1.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/xmlschema-core-2.2.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/xmlschema-core-2.2.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1402,7 +1402,7 @@
     <orderEntry type="module-library">
       <library name="xmlsec-2.0.6.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/xmlsec-2.0.6.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/xmlsec-2.0.6.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1411,7 +1411,7 @@
     <orderEntry type="module-library">
       <library name="xmltooling-1.3.2-1.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/xmltooling-1.3.2-1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/xmltooling-1.3.2-1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1420,7 +1420,7 @@
     <orderEntry type="module-library">
       <library name="xpp3_min-1.1.4c.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/xpp3_min-1.1.4c.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/xpp3_min-1.1.4c.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1429,7 +1429,7 @@
     <orderEntry type="module-library">
       <library name="xsdlib-2010.1.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/xsdlib-2010.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/xsdlib-2010.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1438,7 +1438,7 @@
     <orderEntry type="module-library">
       <library name="xstream-1.4.7.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/xstream-1.4.7.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/xstream-1.4.7.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1447,7 +1447,7 @@
     <orderEntry type="module-library">
       <library name="yardCheckCore-1.0.0.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../NBG/HopeTop/yardCheckCore-1.0.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../NBG/HopeTop/yardCheckCore-1.0.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

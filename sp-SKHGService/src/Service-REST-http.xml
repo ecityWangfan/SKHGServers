@@ -17,7 +17,7 @@
 		serviceName="s:SKHGServerRest">
 
 		<jaxrs:serviceBeans>
-			<bean class="com.ecity.skhg.rest.SKHGStageServerRestImpl">
+			<bean class="com.ecity.skhg.rest.SKHGServerRestImpl">
 				<property name="CORE">
 					<ref bean="ServerCore" />
 				</property>
@@ -25,7 +25,7 @@
 		</jaxrs:serviceBeans>
      
 		<jaxrs:providers>
-			<bean class="com.ecity.skhg.rest.SKHGStageServerJsonpProvider">
+			<bean class="com.ecity.skhg.rest.SKHGServerJsonpProvider">
 				<property name="dropRootElement" value="true" />
 				<property name="dropCollectionWrapperElement" value="true" />
 				<property name="serializeAsArray" value="true" />
@@ -35,7 +35,7 @@
 		</jaxrs:providers>
 		
 		<jaxrs:inInterceptors>
-		    <bean class="com.ecity.skhg.rest.SKHGStageServiceRestInInterceptor"/>
+		    <bean class="com.ecity.skhg.rest.SKHGServiceRestInInterceptor"/>
 		    <bean class="org.apache.cxf.transport.common.gzip.GZIPInInterceptor"/>		    	  		 
 		</jaxrs:inInterceptors>  
 		

@@ -24,4 +24,13 @@ public abstract interface SKHGLoaderServerRest {
             @QueryParam("f") @DefaultValue("json") String f,
             @QueryParam("tableName") @DefaultValue("") String tableName,
             @QueryParam("where") @DefaultValue("1=1") String where) throws Exception;
+
+    @GET
+    @Path("/queryPro")
+    @Produces({"application/json", "application/xml", "text/html"})
+    public abstract Object querProGL(
+            @Context HttpServletRequest req,
+            @QueryParam("f") @DefaultValue("json") String f,
+            @QueryParam("proName") @DefaultValue("") String proName,
+            @QueryParam("parms") @DefaultValue("") String parms) throws Exception;
 }

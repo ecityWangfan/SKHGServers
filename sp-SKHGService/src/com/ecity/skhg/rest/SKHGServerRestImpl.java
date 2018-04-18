@@ -112,4 +112,32 @@ public class SKHGServerRestImpl implements SKHGServerRest {
         return response;
     }
 
+    @Override
+    public Object sendICMsg(HttpServletRequest req, String f, String sender, String senderId, String msg) throws Exception {
+        Response response = null;
+        JSONObject jsonObject = new JSONObject();
+        try {
+            jsonObject = new SKHGManager(CORE).sendICMsg(sender, senderId, msg);
+        } catch (Exception ex) {
+            ex.printStackTrace();
+            jsonObject = ServerJSON.ecityException(new EcityException(ex.getMessage()));
+        }
+        response = ResponseTool.jsonObjectResponse(jsonObject, req);
+        return response;
+    }
+
+    @Override
+    public Object getNewestICMsgs(HttpServletRequest req, String f, int number) throws Exception {
+        Response response = null;
+        JSONObject jsonObject = new JSONObject();
+        try {
+            jsonObject = new SKHGManager(CORE).getNewestICMsgs(number);
+        } catch (Exception ex) {
+            ex.printStackTrace();
+            jsonObject = ServerJSON.ecityException(new EcityException(ex.getMessage()));
+        }
+        response = ResponseTool.jsonObjectResponse(jsonObject, req);
+        return response;
+    }
+
 }

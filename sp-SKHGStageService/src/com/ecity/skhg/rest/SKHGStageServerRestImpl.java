@@ -105,4 +105,18 @@ public class SKHGStageServerRestImpl implements SKHGStageServerRest {
         return response;
     }
 
+    @Override
+    public Object excuteSqlNoQuery(HttpServletRequest req, String f, String sql) throws Exception {
+        Response response = null;
+        JSONObject jsonObject = new JSONObject();
+        try {
+            jsonObject = new SKHGStageManager(CORE).excuteSqlNoQuery(sql);
+        } catch (Exception ex) {
+            ex.printStackTrace();
+            jsonObject = ServerJSON.ecityException(new EcityException(ex.getMessage()));
+        }
+        response = ResponseTool.jsonObjectResponse(jsonObject, req);
+        return response;
+    }
+
 }

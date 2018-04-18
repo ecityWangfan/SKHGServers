@@ -247,7 +247,7 @@ public class SKHGStageManager {
         try {
             ITableClass itc = this.workspace.getTableClass("MT_ATT_FIELD");
             QueryFilter qf = new QueryFilter();
-            qf.setWhere("TABLENAME='" + tableName + "'");
+            qf.setWhere("TABLENAME='" + tableName + "' AND VISIBLE=1");
             List<Record> list = itc.search(qf);
 
             ITableClass itc1 = this.workspace.getTableClass(tableName);
@@ -283,6 +283,7 @@ public class SKHGStageManager {
 
     /**
      * 查询空间表
+     *
      * @param tableName
      * @param where
      * @return
@@ -299,7 +300,7 @@ public class SKHGStageManager {
 
             ITableClass itc1 = this.workspace.getTableClass("MT_ATT_FIELD");
             QueryFilter qf1 = new QueryFilter();
-            qf1.setWhere("TABLENAME='" + tableName + "'");
+            qf1.setWhere("TABLENAME='" + tableName + "' AND VISIBLE=1");
             List<Record> field = itc1.search(qf1);
 
             JSONArray ja = new JSONArray();
@@ -326,6 +327,33 @@ public class SKHGStageManager {
             result.put("attr", jo);
             result.put("success", true);
         } catch (Exception e) {
+            result.put("success", false);
+            result.put("msg", e.getMessage());
+        }
+        return result;
+    }
+
+    /**
+     * 执行非查询sql语句
+     *
+     * @param sql
+     * @return
+     * @throws JSONException
+     */
+    public JSONObject excuteSqlNoQuery(String sql) throws JSONException, EcityException {
+        JSONObject result = new JSONObject();
+        try {
+            this.workspace.startEdit();
+            String sqls[] = sql.split(";");
+            for (int i = 0; i < sqls.length; i++) {
+                if (!sqls[i].equals("")) {
+                    this.workspace.getDb().executeSqlNoQuery(sqls[i]);
+                }
+            }
+            this.workspace.endEdit();
+            result.put("success", true);
+        } catch (Exception e) {
+            this.workspace.rollbackEdit();
             result.put("success", false);
             result.put("msg", e.getMessage());
         }
