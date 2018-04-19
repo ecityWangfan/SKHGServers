@@ -71,11 +71,11 @@ public class SKHGServerRestImpl implements SKHGServerRest {
     }
 
     @Override
-    public Object updateGeomByGid(HttpServletRequest req, String f, int gid, String rings) throws Exception {
+    public Object updateGeomByGid(HttpServletRequest req, String f,String tableName, int gid, String rings) throws Exception {
         Response response = null;
         JSONObject jsonObject = new JSONObject();
         try {
-            jsonObject = new SKHGManager(CORE).updateGeomByGid(gid, rings);
+            jsonObject = new SKHGManager(CORE).updateGeomByGid(tableName, gid, rings);
         } catch (Exception ex) {
             ex.printStackTrace();
             jsonObject = ServerJSON.ecityException(new EcityException(ex.getMessage()));

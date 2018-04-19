@@ -2,7 +2,6 @@ package com.ecity.skhg.impl;
 
 import java.io.File;
 import java.util.*;
-
 import com.ecity.datatable.DataRow;
 import com.ecity.datatable.DataRowCollection;
 import com.ecity.datatable.DataTable;
@@ -26,7 +25,6 @@ import com.ecity.skhg.rest.ServiceCore;
 import com.ecity.skhg.utils.DateUtils;
 import com.ecity.table.ITableClass;
 import com.ecity.table.Record;
-
 import javax.servlet.http.HttpServletRequest;
 
 public class SKHGLoaderManager {
@@ -82,10 +80,10 @@ public class SKHGLoaderManager {
             List<Record> list1 = itc1.search(qf1);
 
             JSONArray ja = new JSONArray();
-            for (int i = 0; i < list1.size();i++) {
+            for (int i = 0; i < list1.size(); i++) {
                 Record r = list1.get(i);
                 JSONObject jo = new JSONObject();
-                for (int j = 0; j < list.size();j++){
+                for (int j = 0; j < list.size(); j++) {
                     String name = list.get(j).getStringValue("NAME");
                     jo.put(name, r.getStringValue(name));
                 }
@@ -93,7 +91,7 @@ public class SKHGLoaderManager {
             }
 
             JSONObject jo = new JSONObject();
-            for (int i = 0; i < list.size();i++){
+            for (int i = 0; i < list.size(); i++) {
                 Record r = list.get(i);
                 jo.put(r.getStringValue("NAME"), r.getStringValue("ALIAS"));
             }
@@ -117,7 +115,7 @@ public class SKHGLoaderManager {
             List<Record> list = itc.search(qf);
             if (list.size() <= 0) {
                 result.put("success", false);
-                result.put("msg",  "缺少元数据：" + proName);
+                result.put("msg", "缺少元数据：" + proName);
                 return result;
             }
             JSONArray jsn = new JSONArray(parms);
@@ -152,13 +150,168 @@ public class SKHGLoaderManager {
                 }
             }
             JSONObject attr = new JSONObject();
-            for (int i=0; i<list.size();i++) {
+            for (int i = 0; i < list.size(); i++) {
                 String name = list.get(i).getStringValue("NAME");
                 String alias = list.get(i).getStringValue("ALIAS");
                 attr.put(name, alias);
             }
             result.put("data", ja);
             result.put("attr", attr);
+            result.put("success", true);
+        } catch (Exception e) {
+            result.put("success", false);
+            result.put("msg", e.getMessage());
+        }
+        return result;
+    }
+
+    /**
+     * 执行非查询sql语句
+     *
+     * @param sql
+     * @return
+     * @throws JSONException
+     */
+    public JSONObject excuteSqlNoQuery(String sql) throws JSONException, EcityException {
+        JSONObject result = new JSONObject();
+        try {
+            this.workspace.startEdit();
+            String sqls[] = sql.split(";");
+            for (int i = 0; i < sqls.length; i++) {
+                if (!sqls[i].equals("")) {
+                    this.workspace.getDb().executeSqlNoQuery(sqls[i]);
+                }
+            }
+            this.workspace.endEdit();
+            result.put("success", true);
+        } catch (Exception e) {
+            this.workspace.rollbackEdit();
+            result.put("success", false);
+            result.put("msg", e.getMessage());
+        }
+        return result;
+    }
+
+    /**
+     * 旅检移泊申请同意
+     *
+     * @param mmsi
+     * @return
+     * @throws JSONException
+     * @throws EcityException
+     */
+    public JSONObject ljybTy(String mmsi) throws JSONException, EcityException {
+        JSONObject result = new JSONObject();
+        try {
+            this.workspace.startEdit();
+            String sql1 = "UPDATE SK_LJYBSQB SET VALID='N' WHERE MMSI='%S' AND VALID='Y' AND PERMIT='Y'";
+            String sql2 = "UPDATE SK_LJYBSQB SET PERMIT='Y' WHERE MMSI='%S' AND VALID='Y' AND PERMIT IS NULL";
+            this.workspace.getDb().executeSqlNoQuery(String.format(sql1, mmsi));
+            this.workspace.getDb().executeSqlNoQuery(String.format(sql2, mmsi));
+            this.workspace.endEdit();
+            result.put("success", true);
+        } catch (Exception e) {
+            this.workspace.rollbackEdit();
+            result.put("success", false);
+            result.put("msg", e.getMessage());
+        }
+        return result;
+    }
+
+    /**
+     * 旅检移泊申请取消
+     *
+     * @param mmsi
+     * @return
+     * @throws JSONException
+     * @throws EcityException
+     */
+    public JSONObject ljybQx(String mmsi) throws JSONException, EcityException {
+        JSONObject result = new JSONObject();
+        try {
+            this.workspace.startEdit();
+            String sql = "UPDATE SK_LJYBSQB SET VALID='Y', PERMIT='N' WHERE MMSI='%S' AND VALID='Y' AND PERMIT IS NULL";
+            this.workspace.getDb().executeSqlNoQuery(String.format(sql, mmsi));
+            this.workspace.endEdit();
+            result.put("success", true);
+        } catch (Exception e) {
+            this.workspace.rollbackEdit();
+            result.put("success", false);
+            result.put("msg", e.getMessage());
+        }
+        return result;
+    }
+
+    /**
+     * 旅检到泊申请同意
+     *
+     * @param mmsi
+     * @return
+     * @throws JSONException
+     * @throws EcityException
+     */
+    public JSONObject ljdbTy(String mmsi) throws JSONException, EcityException {
+        JSONObject result = new JSONObject();
+        try {
+            this.workspace.startEdit();
+            String sql1 = "UPDATE SK_LJDBSQB SET VALID='N' WHERE MMSI='%S' AND VALID='Y' AND PERMIT='Y'";
+            String sql2 = "UPDATE SK_LJDBSQB SET PERMIT='Y' WHERE MMSI='%S' AND VALID='Y' AND PERMIT IS NULL";
+            this.workspace.getDb().executeSqlNoQuery(String.format(sql1, mmsi));
+            this.workspace.getDb().executeSqlNoQuery(String.format(sql2, mmsi));
+            this.workspace.endEdit();
+            result.put("success", true);
+        } catch (Exception e) {
+            this.workspace.rollbackEdit();
+            result.put("success", false);
+            result.put("msg", e.getMessage());
+        }
+        return result;
+    }
+
+    /**
+     * 旅检到泊申请取消
+     *
+     * @param mmsi
+     * @return
+     * @throws JSONException
+     * @throws EcityException
+     */
+    public JSONObject ljdbQx(String mmsi) throws JSONException, EcityException {
+        JSONObject result = new JSONObject();
+        try {
+            this.workspace.startEdit();
+            String sql = "UPDATE SK_LJDBSQB SET VALID='Y', PERMIT='N' WHERE MMSI='%S' AND VALID='Y' AND PERMIT IS NULL";
+            this.workspace.getDb().executeSqlNoQuery(String.format(sql, mmsi));
+            this.workspace.endEdit();
+            result.put("success", true);
+        } catch (Exception e) {
+            this.workspace.rollbackEdit();
+            result.put("success", false);
+            result.put("msg", e.getMessage());
+        }
+        return result;
+    }
+
+    /**
+     * 通过gid更新区域地理信息
+     *
+     * @param gid
+     * @param rings
+     * @return
+     * @throws JSONException
+     */
+    public JSONObject updateGeomByGid(String tableName, int gid, String rings) throws JSONException {
+        JSONObject result = new JSONObject();
+        JSONArray ja = new JSONArray("[" + rings + "]");
+        try {
+            this.workspace.startEdit();
+            IFeatureClass ifc = this.workspace.getFeatureClass(tableName);
+            JSONObject attr = new JSONObject();
+            JSONObject geom = new JSONObject();
+            geom.put("rings", ja);
+            Feature f = ifc.createFeatureByJSON(attr, geom.toString());
+            ifc.updateGeometry(gid, f);
+            this.workspace.endEdit();
             result.put("success", true);
         } catch (Exception e) {
             result.put("success", false);

@@ -71,6 +71,7 @@ public abstract interface SKHGServerRest {
     public abstract Object updateGeomByGid(
             @Context HttpServletRequest req,
             @QueryParam("f") @DefaultValue("json") String f,
+            @QueryParam("tableName") @DefaultValue("") String tableName,
             @QueryParam("gid") @DefaultValue("0") int gid,
             @QueryParam("rings") @DefaultValue("[]") String rings) throws Exception;
 

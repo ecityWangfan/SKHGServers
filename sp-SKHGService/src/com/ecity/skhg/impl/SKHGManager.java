@@ -223,12 +223,12 @@ public class SKHGManager {
      * @return
      * @throws JSONException
      */
-    public JSONObject updateGeomByGid(int gid, String rings) throws JSONException {
+    public JSONObject updateGeomByGid(String tableName, int gid, String rings) throws JSONException {
         JSONObject result = new JSONObject();
         JSONArray ja = new JSONArray("[" + rings + "]");
         try {
             this.workspace.startEdit();
-            IFeatureClass ifc = this.workspace.getFeatureClass("SK_AREA");
+            IFeatureClass ifc = this.workspace.getFeatureClass(tableName);
             JSONObject attr = new JSONObject();
             JSONObject geom = new JSONObject();
             geom.put("rings", ja);
