@@ -371,10 +371,10 @@ public class SKHGStageManager {
      */
     public JSONObject insertWarningLog(String tabeName, String warnings) throws JSONException, EcityException {
         JSONObject result = new JSONObject();
-        System.out.println("======>" + warnings);
         try {
-            JSONArray ja = new JSONArray(Base64Utils.decode(warnings));
-            System.out.println("============>" + ja.toString());
+            String s = Base64Utils.decode(warnings);
+            String ss = Base64Utils.decode(s);
+            JSONArray ja = new JSONArray(ss);
             int insertNum = 0;
             this.workspace.startEdit();
             ITableClass itc = workspace.getTableClass(tabeName);
