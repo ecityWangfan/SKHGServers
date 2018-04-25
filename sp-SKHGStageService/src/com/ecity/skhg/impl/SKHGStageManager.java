@@ -360,4 +360,36 @@ public class SKHGStageManager {
         return result;
     }
 
+    /**
+     * 调拨通道途中监管异常报警
+     *
+     * @param warnings
+     * @return
+     * @throws JSONException
+     * @throws EcityException
+     */
+    public JSONObject insertWarningLog(String tabeName, String warnings) throws JSONException, EcityException {
+        JSONObject result = new JSONObject();
+        JSONArray ja = new JSONArray(warnings);
+        try {
+            int insertNum = 0;
+            this.workspace.startEdit();
+            ITableClass itc = workspace.getTableClass(tabeName);
+            for (int i = 0; i < ja.length(); i++) {
+                JSONObject jo = ja.getJSONObject(i);
+                Record r = itc.createRecordByJSON(jo);
+                itc.append(r);
+                insertNum++;
+            }
+            this.workspace.endEdit();
+            result.put("insertNum", insertNum);
+            result.put("success", true);
+        } catch (Exception e) {
+            this.workspace.rollbackEdit();
+            result.put("success", false);
+            result.put("msg", e.getMessage());
+        }
+        return result;
+    }
+
 }

@@ -119,4 +119,18 @@ public class SKHGStageServerRestImpl implements SKHGStageServerRest {
         return response;
     }
 
+    @Override
+    public Object insertWarningLog(HttpServletRequest req, String f,String tableName, String warnings) throws Exception {
+        Response response = null;
+        JSONObject jsonObject = new JSONObject();
+        try {
+            jsonObject = new SKHGStageManager(CORE).insertWarningLog(tableName, warnings);
+        } catch (Exception ex) {
+            ex.printStackTrace();
+            jsonObject = ServerJSON.ecityException(new EcityException(ex.getMessage()));
+        }
+        response = ResponseTool.jsonObjectResponse(jsonObject, req);
+        return response;
+    }
+
 }

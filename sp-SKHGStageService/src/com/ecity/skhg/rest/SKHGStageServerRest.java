@@ -114,6 +114,7 @@ public abstract interface SKHGStageServerRest {
 
     /**
      * 执行非查询sql语句
+     *
      * @param req
      * @param f
      * @param sql
@@ -127,4 +128,22 @@ public abstract interface SKHGStageServerRest {
             @Context HttpServletRequest req,
             @QueryParam("f") @DefaultValue("json") String f,
             @QueryParam("sql") @DefaultValue("") String sql) throws Exception;
+
+    /**
+     * 调拨通道途中监管异常报警
+     *
+     * @param req
+     * @param f
+     * @param warnings
+     * @return
+     * @throws Exception
+     */
+    @GET
+    @Path("/insertWarningLog")
+    @Produces({"application/json", "application/xml", "text/html"})
+    public abstract Object insertWarningLog(
+            @Context HttpServletRequest req,
+            @QueryParam("f") @DefaultValue("json") String f,
+            @QueryParam("tableName") @DefaultValue("") String tableName,
+            @QueryParam("warnings") @DefaultValue("[]") String warnings) throws Exception;
 }
