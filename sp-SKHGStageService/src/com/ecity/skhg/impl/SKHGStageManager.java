@@ -10,6 +10,7 @@ import com.ecity.feature.Feature;
 import com.ecity.feature.IFeatureClass;
 import com.ecity.feature.QueryFilter;
 import com.ecity.geometry.Geometry;
+import com.ecity.skhg.utils.Base64Utils;
 import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.FileUpload;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
@@ -370,8 +371,10 @@ public class SKHGStageManager {
      */
     public JSONObject insertWarningLog(String tabeName, String warnings) throws JSONException, EcityException {
         JSONObject result = new JSONObject();
-        JSONArray ja = new JSONArray(warnings);
+        System.out.println("======>" + warnings);
         try {
+            JSONArray ja = new JSONArray(Base64Utils.decode(warnings));
+            System.out.println("============>" + ja.toString());
             int insertNum = 0;
             this.workspace.startEdit();
             ITableClass itc = workspace.getTableClass(tabeName);

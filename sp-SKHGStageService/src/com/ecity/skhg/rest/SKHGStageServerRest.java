@@ -138,12 +138,12 @@ public abstract interface SKHGStageServerRest {
      * @return
      * @throws Exception
      */
-    @GET
+    @POST
     @Path("/insertWarningLog")
     @Produces({"application/json", "application/xml", "text/html"})
     public abstract Object insertWarningLog(
             @Context HttpServletRequest req,
             @QueryParam("f") @DefaultValue("json") String f,
-            @QueryParam("tableName") @DefaultValue("") String tableName,
-            @QueryParam("warnings") @DefaultValue("[]") String warnings) throws Exception;
+            @FormParam("tableName") @DefaultValue("") String tableName,
+            @FormParam("warnings") @DefaultValue("[]") String warnings) throws Exception;
 }
