@@ -132,5 +132,4 @@ public class SKHGStageServerRestImpl implements SKHGStageServerRest {
         response = ResponseTool.jsonObjectResponse(jsonObject, req);
         return response;
     }
-
 }

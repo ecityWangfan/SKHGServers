@@ -369,7 +369,7 @@ public class SKHGStageManager {
      * @throws JSONException
      * @throws EcityException
      */
-    public JSONObject insertWarningLog(String tabeName, String warnings) throws JSONException, EcityException {
+    public JSONObject insertWarningLog(String tableName, String warnings) throws JSONException, EcityException {
         JSONObject result = new JSONObject();
         try {
             String s = Base64Utils.decode(warnings);
@@ -377,7 +377,7 @@ public class SKHGStageManager {
             JSONArray ja = new JSONArray(ss);
             int insertNum = 0;
             this.workspace.startEdit();
-            ITableClass itc = workspace.getTableClass(tabeName);
+            ITableClass itc = workspace.getTableClass(tableName);
             for (int i = 0; i < ja.length(); i++) {
                 JSONObject jo = ja.getJSONObject(i);
                 Record r = itc.createRecordByJSON(jo);

@@ -38,7 +38,6 @@ public class Job {
     public Job() {
         try {
             this.workspace = getWorkspace("loader");
-            ;
             IFeatureClass ifc = this.workspace.getFeatureClass("YLMG_BERTH");
             ITableClass itc = this.workspace.getTableClass("YLMG_BERTH");
             QueryFilter qf = new QueryFilter();
@@ -60,6 +59,9 @@ public class Job {
         }
     }
 
+    /**
+     * 监控异常：旅检船舶未申报即移泊
+     */
     @Scheduled(cron = "*/10 * * * * ?")
     public void job1() {
         try {
@@ -136,7 +138,53 @@ public class Job {
     }
 
     /**
-     * 点是否在面上
+     * 监控是否有新增的调拨通道途中监管异常报警
+     *
+     * @throws EcityException
+     */
+    @Scheduled(cron = "*/10 * * * * ?")
+    public void job2() throws EcityException {
+        IWorkspace stage = null;
+        try {
+            stage = getWorkspace("stage");
+            stage.startEdit();
+            String sql = "SELECT * FROM IMAP_WARNING_LOG2 WHERE ISHANDLED='N'";
+            long toal = stage.getDb().executeSqlForTotal(sql);
+            String update = "UPDATE IMAP_WARNING SET WARNING2=%S";
+            stage.getDb().executeSqlNoQuery(String.format(update, toal));
+            stage.endEdit();
+        } catch (Exception e) {
+            // TODO Auto-generated catch block
+            stage.rollbackEdit();
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     * 监控是否有新增的行政通道车辆识别异常报警
+     *
+     * @throws EcityException
+     */
+    @Scheduled(cron = "*/10 * * * * ?")
+    public void job3() throws EcityException {
+        IWorkspace stage = null;
+        try {
+            stage = getWorkspace("stage");
+            stage.startEdit();
+            String sql = "SELECT * FROM IMAP_WARNING_LOG3 WHERE ISHANDLED='N'";
+            long toal = stage.getDb().executeSqlForTotal(sql);
+            String update = "UPDATE IMAP_WARNING SET WARNING3=%S";
+            stage.getDb().executeSqlNoQuery(String.format(update, toal));
+            stage.endEdit();
+        } catch (Exception e) {
+            // TODO Auto-generated catch block
+            stage.rollbackEdit();
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     * 判断点是否在面上
      *
      * @param ALon
      * @param ALat

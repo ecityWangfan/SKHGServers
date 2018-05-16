@@ -138,4 +138,21 @@ public abstract interface SKHGLoaderServerRest {
             @QueryParam("tableName") @DefaultValue("") String tableName,
             @QueryParam("gid") @DefaultValue("0") int gid,
             @QueryParam("rings") @DefaultValue("[]") String rings) throws Exception;
+
+    /**
+     * 获取互动直播用户签名
+     *
+     * @param req
+     * @param f
+     * @param user
+     * @return
+     * @throws Exception
+     */
+    @GET
+    @Path("/getUserSig")
+    @Produces({"application/json", "application/xml", "text/html"})
+    public abstract Object getUserSig(
+            @Context HttpServletRequest req,
+            @QueryParam("f") @DefaultValue("json") String f,
+            @QueryParam("user") @DefaultValue("") String user) throws Exception;
 }

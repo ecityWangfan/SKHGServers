@@ -3,6 +3,7 @@ package com.ecity.skhg.rest;
 import javax.servlet.http.HttpServletRequest;
 import javax.ws.rs.core.Response;
 
+import com.ecity.skhg.impl.IcommandManager;
 import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
@@ -140,4 +141,17 @@ public class SKHGLoaderServerRestImpl implements SKHGLoaderServerRest {
         return response;
     }
 
+    @Override
+    public Object getUserSig(HttpServletRequest req, String f, String user) throws Exception {
+        Response response = null;
+        JSONObject jsonObject = new JSONObject();
+        try {
+            jsonObject = new IcommandManager(CORE).getUserSig(user);
+        } catch (Exception ex) {
+            ex.printStackTrace();
+            jsonObject = ServerJSON.ecityException(new EcityException(ex.getMessage()));
+        }
+        response = ResponseTool.jsonObjectResponse(jsonObject, req);
+        return response;
+    }
 }
