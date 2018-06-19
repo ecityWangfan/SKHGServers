@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:jaxws="http://cxf.apache.org/jaxws" 
+	xmlns:jaxrs="http://cxf.apache.org/jaxrs"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:cxf="http://cxf.apache.org/core"
+	xsi:schemaLocation="
+	http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://cxf.apache.org/jaxrs http://cxf.apache.org/schemas/jaxrs.xsd
+	http://cxf.apache.org/jaxws http://cxf.apache.org/schemas/jaxws.xsd
+	http://cxf.apache.org/core http://cxf.apache.org/schemas/core.xsd">
+	
+	<jaxrs:server id="SKHGAppServerRest"
+	    address="/rest/services/SKHGAppServer"
+		xmlns:s="http://www.ecitychina.com/SKHGAppServerRest/"
+		serviceName="SKHGAppServerRest">
+
+		<jaxrs:serviceBeans>
+			<bean class="com.ecity.skhg.rest.SKHGAppServerRestImpl">
+				<property name="CORE">
+					<ref bean="ServerCore" />
+				</property>
+			</bean>
+		</jaxrs:serviceBeans>
+     
+		<jaxrs:providers>
+			<bean class="com.ecity.skhg.rest.SKHGAppServerJsonpProvider">
+				<property name="dropRootElement" value="true" />
+				<property name="dropCollectionWrapperElement" value="true" />
+				<property name="serializeAsArray" value="true" />
+				<property name="writeNullAsString" value="true" />	
+				<property name="writeXsiType" value="true" />					
+			</bean>		
+		</jaxrs:providers>
+		
+		<jaxrs:inInterceptors>
+		    <bean class="com.ecity.skhg.rest.SKHGAppServiceRestInInterceptor"/>
+		    <bean class="org.apache.cxf.transport.common.gzip.GZIPInInterceptor"/>		    	  		 
+		</jaxrs:inInterceptors>  
+		
+		<jaxrs:outInterceptors> 
+  		    <bean class="com.ecity.skhg.rest.My_GZIPOutInterceptor">
+  		    	<property name="threshold"><value>10240</value></property>
+  		    </bean>    		
+     	</jaxrs:outInterceptors>
+		
+	</jaxrs:server>
+
+</beans>
