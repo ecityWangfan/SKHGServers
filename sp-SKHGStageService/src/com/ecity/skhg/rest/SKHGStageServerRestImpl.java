@@ -132,4 +132,18 @@ public class SKHGStageServerRestImpl implements SKHGStageServerRest {
         response = ResponseTool.jsonObjectResponse(jsonObject, req);
         return response;
     }
+
+//    @Override
+//    public Object getLastYearAverage(HttpServletRequest req, String f, String type) throws Exception {
+//        Response response = null;
+//        JSONObject jsonObject = new JSONObject();
+//        try {
+//            jsonObject = new SKHGStageManager(CORE).getLastYearAverage(type);
+//        } catch (Exception ex) {
+//            ex.printStackTrace();
+//            jsonObject = ServerJSON.ecityException(new EcityException(ex.getMessage()));
+//        }
+//        response = ResponseTool.jsonObjectResponse(jsonObject, req);
+//        return response;
+//    }
 }

@@ -146,4 +146,21 @@ public abstract interface SKHGStageServerRest {
             @QueryParam("f") @DefaultValue("json") String f,
             @FormParam("tableName") @DefaultValue("") String tableName,
             @FormParam("warnings") @DefaultValue("[]") String warnings) throws Exception;
+
+//    /**
+//     * 获取去年全年集装箱进闸至装船的总时间的平均值
+//     *
+//     * @param req
+//     * @param f
+//     * @param number
+//     * @return
+//     * @throws Exception
+//     */
+//    @GET
+//    @Path("/getLastYearAverage")
+//    @Produces({"application/json", "application/xml", "text/html"})
+//    public abstract Object getLastYearAverage(
+//            @Context HttpServletRequest req,
+//            @QueryParam("f") @DefaultValue("json") String f,
+//            @QueryParam("type") @DefaultValue("E") String type) throws Exception;
 }

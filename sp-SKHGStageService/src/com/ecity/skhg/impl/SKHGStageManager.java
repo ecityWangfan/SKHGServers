@@ -6,6 +6,8 @@ import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
 
+import com.ecity.datatable.DataRow;
+import com.ecity.datatable.DataTable;
 import com.ecity.feature.Feature;
 import com.ecity.feature.IFeatureClass;
 import com.ecity.feature.QueryFilter;
@@ -394,5 +396,36 @@ public class SKHGStageManager {
         }
         return result;
     }
+
+//    public JSONObject getLastYearAverage(String type) throws JSONException, EcityException {
+//        JSONObject result = new JSONObject();
+//        try {
+//            DataTable dt = this.workspace.getDb().executeSql("select count(*) as sum from imap_scct_sxfx_01 where category='" + type + "' and EFFECTDATE LIKE to_number(to_char(sysdate,'yyyy')) - 1 || '%'");
+//            int sum = dt.getRows().get(0).getInt("SUM");
+//            System.out.printf("=======>" + sum);
+//            System.out.printf("=======>" + (sum > 0));
+//            if (sum > 0) {
+//                String sql = "select sum(dataa)/" + sum + " as dataa,sum(datab)/" + sum + " as datab,sum(datac)/" + sum + " as datac,sum(datad)/" + sum + " as datad,sum(datae)/" + sum + " as datae,sum(dataf)/" + sum + " as dataf from imap_scct_sxfx_01 where category='" + type + "' and effectdate like to_number(to_char(sysdate,'yyyy')) - 1 || '%'";
+//                System.out.printf("=====>" + sql);
+//                DataTable dt1 = this.workspace.getDb().executeSql(sql);
+//                DataRow dr = dt1.getRows().get(0);
+//                JSONObject jo = new JSONObject();
+//                jo.put("DATAA", dr.getString("DATAA"));
+//                jo.put("DATAB", dr.getString("DATAB"));
+//                jo.put("DATAC", dr.getString("DATAC"));
+//                jo.put("DATAD", dr.getString("DATAD"));
+//                jo.put("DATAE", dr.getString("DATAE"));
+//                jo.put("DATAF", dr.getString("DATAF"));
+//            } else {
+//                result.put("success", false);
+//                result.put("msg", "没有去年的数据,无法计算去年平均值！");
+//            }
+//        } catch (Exception e) {
+//            System.out.printf("=======><==========");
+//            result.put("success", false);
+//            result.put("msg", e.getMessage());
+//        }
+//        return result;
+//    }
 
 }
