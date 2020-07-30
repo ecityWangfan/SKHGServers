@@ -150,4 +150,6 @@ public abstract interface SKHGServerRest {
             @Context HttpServletRequest req,
             @QueryParam("f") @DefaultValue("json") String f,
             @QueryParam("number") @DefaultValue("100") int number) throws Exception;
+    
+
 }

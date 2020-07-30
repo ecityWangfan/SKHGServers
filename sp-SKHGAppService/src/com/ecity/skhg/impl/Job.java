@@ -42,7 +42,9 @@ public class Job {
 	 */
 	@Scheduled(cron = "0 */10 * * * ?")
 	public void job1() {
+		/*
 		try {
+			
 			JSONObject warning = getWarningData();
 			IWorkspace iw = getWorkspace("stage");
 			ITableClass itc = iw.getTableClass("SK_XG_MAPPING");
@@ -76,10 +78,12 @@ public class Job {
 					}
 				}
 			}
+			
 		} catch (EcityException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		*/
 	}
 
 	/**
